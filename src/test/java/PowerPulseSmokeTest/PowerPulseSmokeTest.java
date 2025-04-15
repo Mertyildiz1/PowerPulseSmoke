@@ -19,19 +19,15 @@ public class PowerPulseSmokeTest extends TestBase {
         public void mevcutHesapGiris(){
 
         driver.get("https://power-pulse-qa.f.goit.study/");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         WebElement signInButton = driver.findElement(By.xpath("//a[@class='WelcomPage_linkSignIn__dpaLe']"));
         signInButton.click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         WebElement emailInput = driver.findElement(By.xpath("//input"));
         emailInput.sendKeys("testpowerpulse@gmail.com",Keys.TAB);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         WebElement passwordInput = driver.findElement(By.xpath("(//input)[2]"));
         passwordInput.sendKeys("123456Aa");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         WebElement signInButton2 = driver.findElement(By.xpath("//button[@class='Button_button__wiIYs ']"));
         signInButton2.click();
@@ -49,19 +45,15 @@ public class PowerPulseSmokeTest extends TestBase {
         @Test
         public void diaryButton() {
         driver.get("https://power-pulse-qa.f.goit.study/");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         WebElement signInButton = driver.findElement(By.xpath("//a[@class='WelcomPage_linkSignIn__dpaLe']"));
         signInButton.click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         WebElement emailInput = driver.findElement(By.xpath("//input"));
         emailInput.sendKeys("testpowerpulse@gmail.com", Keys.TAB);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         WebElement passwordInput = driver.findElement(By.xpath("(//input)[2]"));
         passwordInput.sendKeys("123456Aa");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         WebElement signInButton2 = driver.findElement(By.xpath("//button[@class='Button_button__wiIYs ']"));
         signInButton2.click();
@@ -77,19 +69,15 @@ public class PowerPulseSmokeTest extends TestBase {
         @Test
         public void productsButton() {
             driver.get("https://power-pulse-qa.f.goit.study/");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton = driver.findElement(By.xpath("//a[@class='WelcomPage_linkSignIn__dpaLe']"));
             signInButton.click();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement emailInput = driver.findElement(By.xpath("//input"));
             emailInput.sendKeys("testpowerpulse@gmail.com", Keys.TAB);
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement passwordInput = driver.findElement(By.xpath("(//input)[2]"));
             passwordInput.sendKeys("123456Aa");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton2 = driver.findElement(By.xpath("//button[@class='Button_button__wiIYs ']"));
             signInButton2.click();
@@ -104,19 +92,15 @@ public class PowerPulseSmokeTest extends TestBase {
         @Test
         public void exercisesButton() {
             driver.get("https://power-pulse-qa.f.goit.study/");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton = driver.findElement(By.xpath("//a[@class='WelcomPage_linkSignIn__dpaLe']"));
             signInButton.click();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement emailInput = driver.findElement(By.xpath("//input"));
             emailInput.sendKeys("testpowerpulse@gmail.com", Keys.TAB);
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement passwordInput = driver.findElement(By.xpath("(//input)[2]"));
             passwordInput.sendKeys("123456Aa");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton2 = driver.findElement(By.xpath("//button[@class='Button_button__wiIYs ']"));
             signInButton2.click();
@@ -132,19 +116,15 @@ public class PowerPulseSmokeTest extends TestBase {
         @Test
         public void düzenlemeSimgesiButton() {
             driver.get("https://power-pulse-qa.f.goit.study/");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton = driver.findElement(By.xpath("//a[@class='WelcomPage_linkSignIn__dpaLe']"));
             signInButton.click();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement emailInput = driver.findElement(By.xpath("//input"));
             emailInput.sendKeys("testpowerpulse@gmail.com", Keys.TAB);
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement passwordInput = driver.findElement(By.xpath("(//input)[2]"));
             passwordInput.sendKeys("123456Aa");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton2 = driver.findElement(By.xpath("//button[@class='Button_button__wiIYs ']"));
             signInButton2.click();
@@ -160,19 +140,15 @@ public class PowerPulseSmokeTest extends TestBase {
         @Test
         public void DiaryAddExercisesButton(){
             driver.get("https://power-pulse-qa.f.goit.study/");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton = driver.findElement(By.xpath("//a[@class='WelcomPage_linkSignIn__dpaLe']"));
             signInButton.click();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement emailInput = driver.findElement(By.xpath("//input"));
             emailInput.sendKeys("testpowerpulse@gmail.com", Keys.TAB);
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement passwordInput = driver.findElement(By.xpath("(//input)[2]"));
             passwordInput.sendKeys("123456Aa");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton2 = driver.findElement(By.xpath("//button[@class='Button_button__wiIYs ']"));
             signInButton2.click();
@@ -187,19 +163,15 @@ public class PowerPulseSmokeTest extends TestBase {
         @Test
         public void DiaryAddProductButton(){
             driver.get("https://power-pulse-qa.f.goit.study/");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton = driver.findElement(By.xpath("//a[@class='WelcomPage_linkSignIn__dpaLe']"));
             signInButton.click();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement emailInput = driver.findElement(By.xpath("//input"));
             emailInput.sendKeys("testpowerpulse@gmail.com", Keys.TAB);
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement passwordInput = driver.findElement(By.xpath("(//input)[2]"));
             passwordInput.sendKeys("123456Aa");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton2 = driver.findElement(By.xpath("//button[@class='Button_button__wiIYs ']"));
             signInButton2.click();
@@ -214,19 +186,15 @@ public class PowerPulseSmokeTest extends TestBase {
         @Test
         public void exercisesBodyPartsButton() {
             driver.get("https://power-pulse-qa.f.goit.study/");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton = driver.findElement(By.xpath("//a[@class='WelcomPage_linkSignIn__dpaLe']"));
             signInButton.click();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement emailInput = driver.findElement(By.xpath("//input"));
             emailInput.sendKeys("testpowerpulse@gmail.com", Keys.TAB);
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement passwordInput = driver.findElement(By.xpath("(//input)[2]"));
             passwordInput.sendKeys("123456Aa");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton2 = driver.findElement(By.xpath("//button[@class='Button_button__wiIYs ']"));
             signInButton2.click();
@@ -244,19 +212,15 @@ public class PowerPulseSmokeTest extends TestBase {
         @Test
         public void exercisesEquipmentButton(){
             driver.get("https://power-pulse-qa.f.goit.study/");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton = driver.findElement(By.xpath("//a[@class='WelcomPage_linkSignIn__dpaLe']"));
             signInButton.click();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement emailInput = driver.findElement(By.xpath("//input"));
             emailInput.sendKeys("testpowerpulse@gmail.com", Keys.TAB);
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement passwordInput = driver.findElement(By.xpath("(//input)[2]"));
             passwordInput.sendKeys("123456Aa");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton2 = driver.findElement(By.xpath("//button[@class='Button_button__wiIYs ']"));
             signInButton2.click();
@@ -274,19 +238,15 @@ public class PowerPulseSmokeTest extends TestBase {
         @Test
         public void exercisesMusclesButton(){
             driver.get("https://power-pulse-qa.f.goit.study/");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton = driver.findElement(By.xpath("//a[@class='WelcomPage_linkSignIn__dpaLe']"));
             signInButton.click();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement emailInput = driver.findElement(By.xpath("//input"));
             emailInput.sendKeys("testpowerpulse@gmail.com", Keys.TAB);
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement passwordInput = driver.findElement(By.xpath("(//input)[2]"));
             passwordInput.sendKeys("123456Aa");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton2 = driver.findElement(By.xpath("//button[@class='Button_button__wiIYs ']"));
             signInButton2.click();
@@ -304,19 +264,15 @@ public class PowerPulseSmokeTest extends TestBase {
         @Test
         public void logoAnaSayfadaGörünür(){
             driver.get("https://power-pulse-qa.f.goit.study/");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton = driver.findElement(By.xpath("//a[@class='WelcomPage_linkSignIn__dpaLe']"));
             signInButton.click();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement emailInput = driver.findElement(By.xpath("//input"));
             emailInput.sendKeys("testpowerpulse@gmail.com",Keys.TAB);
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement passwordInput = driver.findElement(By.xpath("(//input)[2]"));
             passwordInput.sendKeys("123456Aa");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton2 = driver.findElement(By.xpath("//button[@class='Button_button__wiIYs ']"));
             signInButton2.click();
@@ -331,19 +287,15 @@ public class PowerPulseSmokeTest extends TestBase {
         @Test
         public void appNameAnaSayfadaGörünür(){
             driver.get("https://power-pulse-qa.f.goit.study/");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton = driver.findElement(By.xpath("//a[@class='WelcomPage_linkSignIn__dpaLe']"));
             signInButton.click();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement emailInput = driver.findElement(By.xpath("//input"));
             emailInput.sendKeys("testpowerpulse@gmail.com",Keys.TAB);
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement passwordInput = driver.findElement(By.xpath("(//input)[2]"));
             passwordInput.sendKeys("123456Aa");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
             WebElement signInButton2 = driver.findElement(By.xpath("//button[@class='Button_button__wiIYs ']"));
             signInButton2.click();
